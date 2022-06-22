@@ -1,0 +1,10 @@
+sudo apt install docker.io -->Docker installation 
+sudo docker pull postgres -->Image Pull
+sudo docker images -a -->Image Display
+sudo docker run --name postgres-docker -e POSTGRES_PASSWORD=password -d postgres -->Create postgres container Setup
+sudo docker ps -a -->containers display
+sudo docker start postgres-docker -->Run a perticular Container 
+sudo docker exec -it cbd179678b21 bash -->Container bhitra chirne
+  
+history 
+sudo docker cp cbd179678b21:/postgresbackup.sql /home/db-poc-2/ -> copy files and folder from container to host machine
