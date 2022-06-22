@@ -1,3 +1,5 @@
+-------Create a first image in Docker Container and install postgres in a Docker container---------------------
+
 sudo apt install docker.io -->Docker installation 
 sudo docker pull postgres -->Image Pull
 sudo docker images -a -->Image Display
